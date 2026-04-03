@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio David Egert</title>
+
+    <!-- Vínculo a Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Vínculo al archivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--ELEMENTOS -->
+    <!-- 1 HEADER -->
+    <header>
+        <h1>Portafolio Peronal David</h1>
+    </header>
+
+    <!-- 2 NAV (luego quisiera agregar más secciones)-->
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">SOBRE MI</a></li>
+            <li><a href="#tarjetas">PROYECTOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- SECCIÓN SOBRE MÍ -->
+        <!-- En el futuro podría agregarse una línea de tiempo profesional -->
+        <section id="sobre-mi">
+            <h2>SOBRE MI</h2>
+            <img src="/img/David.png" alt="Imagen personal" class="foto-perfil">
+            <p>
+                Soy un desarrollador web en formación apasionado por la tecnología,
+                el diseño y la creación de soluciones digitales. Mi misión es
+                desarrollar sitios modernos, accesibles y funcionales.
+            </p>
+        </section>
+
+        <!-- SECCIÓN TARJETAS -->
+        <!-- Se utiliza Flexbox para organizar las columnas -->
+        <section id="tarjetas">
+            <h2>MIS PROYECTOS</h2>
+
+            <div class="contenedor-tarjetas">
+                <div class="tarjeta">
+                    <img src="/img/proyecto-educativo.jpg" alt="Proyecto 1">
+                    <h3>Sitio Web Educativo</h3>
+                    <p>Desarrollo de una plataforma educativa interactiva.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="/img/proyecto-carrito.jpg" alt="Proyecto 2">
+                    <h3>Tienda Online</h3>
+                    <p>Diseño de e-commerce responsivo con carrito de compras.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN HABILIDADES -->
+        <section id="habilidades">
+            <h2>HABILIDADES</h2>
+
+            <table>
+                <tr>
+                    <th>Domino</th>
+                    <th>Quiero aprender</th>
+                    <th>Hobbies</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>JavaScript avanzado</td>
+                    <td>Leer tecnología</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>React</td>
+                    <td>Gaming</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- SECCIÓN CONTACTO -->
+        <!-- A futuro se podría conectar con un backend -->
+        <section id="contacto">
+            <h2>CONTACTO</h2>
+
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Apellido" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Teléfono">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- SECCIÓN PELÍCULAS -->
+        <section id="peliculas">
+            <h2>MIS PELICULAS FAVORITAS</h2>
+
+            <div class="pelicula">
+                <h3>El Señor de los Anillos, La Comunidad del Anillo</h3>
+                <img src="/img/comunidad-del-anillo.jpg" alt="El Señor de los Anillos">
+                <p>Una historia épica donde un joven hobbit debe destruir un anillo poderoso para salvar al mundo, destacándose por su aventura, amistad y mundo fantástico.</p>
+            </div>
+
+            <div class="pelicula">
+                <h3>Volver al futuro, la saga completa</h3>
+                <img src="/img/volver-futuro.jpg" alt="Interestelar">
+                <p>Una saga de aventuras donde un joven viaja en el tiempo con un científico excéntrico, enfrentando situaciones que pueden cambiar el pasado, el presente y el futuro, combinando ciencia ficción, humor y emoción.</p>
+            </div>
+
+            <div class="pelicula">
+                <h3>El Renacido</h3>
+                <img src="/img/renacido.jpg" alt="El Padrino">
+                <p>Una intensa historia de supervivencia donde un hombre lucha por mantenerse con vida en la naturaleza salvaje, impulsado por la venganza y mostrando una gran resistencia física y emocional.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER: Información adicional y redes -->
+<footer class="footer">
+    <p> 2026 - Front-End-David Egert</p>
+    
+    <div class="redes">
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+</footer>
+
+</body>
+</html>
